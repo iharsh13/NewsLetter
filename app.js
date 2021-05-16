@@ -37,7 +37,7 @@ app.post('/',(req,res)=>{
 
     const Options ={
         method : "POST",
-        auth : "harsh:2b5298a5fba5a135b46ab0ae15a74c02-us12"
+        auth : "harsh:2b5298a5fba5a135b46ab0ae15a74c02-us1"
     }
 const request= https.request(url,Options,(response)=>{
     if(response.statusCode===200)
